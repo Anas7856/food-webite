@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height:85vh;
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1px;
+position: relative;
+ background-color: rgb(0, 0, 0);
+
+}
+.cont{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid orange;
+    box-shadow: 2px 2px 20px  white ;
+    top: -1px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.im{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+ 
+    height: 50px;
+    width: 25%;
+    margin-right: 5px;
+   align-items: center; 
+    justify-content: space-around;
+}
+.btn{
+    height: 30px;
+    color: red;
+    border: 2px solid orange;
+
+    width: 70px;
+    background-color: black;
+}
+.cont h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 30px;
+    color: orange;
+    font-size: 40px;
+}
+.cont h2{
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 30px;
+    color: rgb(156, 107, 14);
+    font-size: 40px;
+}
+.cont2{
+    height: 300px;
+    width: 300px;
+    background-image: url(vecteezy_front-view-tasty-meat-burger-with-cheese-and-salad-on-dark_30365484.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 20px;
+   
+    background-size: cover;
+  
+}
+.cont3{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-family: cursive;
+    font-size: 20px;
+    font-style: italic;
+   
+    padding: 20px;
+    color: orange;
+    width: 410px;
+   flex-direction: column;
+   position: relative;
+
+}
+.box{
+    height: 15px;
+    width: 80%;
+  
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+
+
+    border: 2px solid orangered;
+}
+.text{
+    font-size: 12px;
+    color: rgb(255, 246, 246);
+    font-family: monospace;
+    font-style: italic;
+}
+.box1 button{
+    height: 30px;
+    width: 50px;
+    font-size: 9px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid orange;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
+.picks{
+    height: 35px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.picks img{
+    height: 20px;
+    width: 20px;
+}
+.main2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.food{
+    height: 85px;
+width: 300px;
+display: flex;
+background-color: orangered;
+border: 2px solid orangered;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+position: absolute;
+top: -30px;
+right: 40%;
+}
+.main2 h1{
+    font-size:40px;
+    font-weight: bold;
+    color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main2 p{
+    font-size: 12px;
+    color: white;
+
+}
+.prices{
+    height: 250px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 80px;
+ 
+}
+.fname{
+    height: 220px;
+    width: 250px;
+    margin-left: 280px;
+   padding: 10px;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+    background-color: rgb(161, 240, 14);
+}
+.fcircle{
+    height: 250px;
+    width: 550px;
+    border: 2px solid orangered;
+  border-bottom-left-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 120px;
+  position: relative;
+    background-color: orangered;
+}
+.circle{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    left: 10px;
+    background-image: url(gop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    background-color: white;
+}
+.di{
+    height: 30px;
+    width: 130px;
+   background-color: orangered;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+    position: absolute;
+    top: 9px;
+    left: 10px;
+   
+    font-style: italic;
+   
+    border-radius: 10px;
+}
+.di p{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    
+    font-weight: bold;
+}
